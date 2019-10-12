@@ -1851,7 +1851,7 @@ class MaskRCNN():
         # Generate Anchors
         self.anchors = utils.generate_pyramid_anchors(config.RPN_ANCHOR_SCALES,
                                                       config.RPN_ANCHOR_RATIOS,
-                                                      config.BACKBONE_SHAPES,
+                                                      # config.BACKBONE_SHAPES,
                                                       config.BACKBONE_STRIDES,
                                                       config.RPN_ANCHOR_STRIDE)
 
